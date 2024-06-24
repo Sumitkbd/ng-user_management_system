@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-lg p-5 mt-5 mb-5 ">
+        <h2>Login</h2>
+        <hr>
+        <!--
+              <div class="alert alert-success" role="alert">
+                  Login Successfull !
+              </div>
+            -->
+        <form [formGroup]="loginForm">
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" placeholder="Enter Email id" formControlName="email">
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" placeholder="********" formControlName="password">
+          </div><br>
+
+          <div class="d-flex justify-content-center gap-2 mt-2">
+            <button type="submit" class="btn btn-primary" (click)="login()">Login</button>
+          </div>
+          <p class="text-center">Don't have an account? <a href="/signupUser">Signup</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

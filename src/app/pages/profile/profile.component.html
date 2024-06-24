@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+
+      <!-- Welcome Message -->
+      <div class="div-1">
+        <p>Welcome! {{data.displayName}}</p>
+      </div>
+      <div class="mailId">
+        <p>{{data.email}}</p>
+      </div>
+      <!-- User Email
+      <div class="div-2">
+        <p class="p-1">Date of Birth: {{data.dob}}</p>
+        <p class="p-1">Phone No.: {{data.phone}}</p>
+        <p class="p-1">Occupation: {{data.work}}</p>
+        <p class="p-1">Address: {{data.address}}</p>
+      </div>
+    -->
+      <table>
+        <thead>
+          <tr>
+            <th>Phone :</th>
+            <td>{{data.phone}}</td>
+          </tr>
+          <tr>
+            <th>Date of Birth :</th>
+            <td>{{data.dob}}</td>
+          </tr>
+          <tr>
+            <th>Occupation :</th>
+            <td>{{data.work}}</td>
+          </tr>
+          <tr>
+            <th>Address :</th>
+            <td>{{data.address}}</td>
+          </tr>
+        </thead>
+      </table>
+
+
+      <div class="div-3">
+        <p class="text-center">Complete your Account !<a href="/editProfile">Click Here
+          </a></p>
+      </div>
+
+    </div>
+
+  </div>
+</div>

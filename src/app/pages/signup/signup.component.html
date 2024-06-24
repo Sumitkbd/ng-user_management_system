@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-lg p-5 mt-5 mb-5">
+        <h2 class="text-center mb-4">Create an Account</h2>
+
+        <hr class="my-4">
+
+        <div *ngIf="message" [ngClass]="className" class="alert alert-dismissible" role="alert">
+          {{ message }}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <form [formGroup]="signupForm">
+          <div class="form-group">
+            <label for="displayName" class="sr-only">Username</label>
+            <input type="text" class="form-control" id="displayName" placeholder="Username"
+              formControlName="displayName">
+          </div>
+          <div class="form-group">
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email id" formControlName="email">
+          </div>
+          <div class="form-group">
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="********" formControlName="password">
+          </div>
+
+          <div class="d-flex justify-content-center gap-2 mt-4">
+            <button type="submit" class="btn btn-primary btn-block" (click)="signup()">Create Account</button>
+          </div>
+
+          <p class="text-center mt-4">Already have an account? <a href="/loginUser"
+              class="text-decoration-none">Login</a></p>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>

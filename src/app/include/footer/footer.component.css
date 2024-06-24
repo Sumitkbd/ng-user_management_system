@@ -1,0 +1,10 @@
+.footers {
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  text-align: center;
+  font-family: fantasy;
+  position: relative;
+  margin-top: 100px;
+
+}

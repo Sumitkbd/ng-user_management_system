@@ -1,0 +1,18 @@
+form {
+  display: grid;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: cursive;
+}
+
+label {
+  font-family: cursive;
+}
+
+input {
+  border-radius: 5px;
+}

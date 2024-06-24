@@ -1,0 +1,10 @@
+.headers {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  font-family: ui-monospace;
+  background-color: beige;
+  padding: 7px;
+  text-shadow: 3px 3px 3px #ababab;
+}

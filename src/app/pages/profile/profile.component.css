@@ -1,0 +1,44 @@
+.div-1 {
+  font-family: cursive;
+  background-color: beige;
+  font-style: oblique;
+  font-family: "Brush Script MT", cursive;
+  font-size: xxx-large;
+}
+
+.mailId {
+  background-color: yellowgreen;
+  font-family: ui-monospace;
+  font-weight: bold;
+}
+
+th {
+  display: block;
+  font-size: large;
+  text-align: justify;
+}
+
+td {
+  font-weight: bold;
+}
+
+.p-1 {
+  font-family: sans-serif;
+}
+
+.col-md-6 {
+  width: 50%;
+  border: 10px solid midnightblue;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+  outline: outset;
+}
+
+.div-3 {
+
+  background-color: rgb(204, 204, 198);
+  margin-top: 8px;
+  font-family: ui-monospace;
+}
