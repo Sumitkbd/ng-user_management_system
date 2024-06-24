@@ -1,0 +1,11 @@
+{
+  "routes": [
+    "/",
+    "/editProfile",
+    "/loginUser",
+    "/newUser",
+    "/profile",
+    "/signupUser",
+    "/updateUser"
+  ]
+}
